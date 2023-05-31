@@ -37,6 +37,7 @@ set(PLAT_SRCS
 	Platform/Linux-ldc2.cmake 
 	Platform/Windows-dmd.cmake              
 	Platform/Windows-gdc.cmake
+	Platform/Windows-ldc2.cmake
 )
 
 install(FILES ${MOD_SRCS} DESTINATION ${CMAKE_ROOT}/Modules)
