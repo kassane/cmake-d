@@ -52,7 +52,7 @@ set(CMAKE_DL_LIBS "dl")
 set(CMAKE_FIND_LIBRARY_PREFIXES "lib")
 set(CMAKE_FIND_LIBRARY_SUFFIXES ".so" ".a")
 
-# set(CMAKE_D_STDLIBS "-L-lphobos2 -L-lpthread -L-lm -defaultlib=libphobos2.so")
+# set(CMAKE_D_STDLIBS "-L-lphobos2 -L-lm -defaultlib=libphobos2.so")
 
 # set(CMAKE_D_FLAGS_INIT "-version=${CMAKE_BUILD_TYPE}Build ${DSTDLIB_FLAGS} ${DSTDLIB_TYPE} -I$ENV{D_PATH}/include -I$ENV{D_PATH}/import -I${CMAKE_PROJECT_SOURCE_DIR}")
 set(CMAKE_D_FLAGS_INIT "")
