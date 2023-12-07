@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/dcarp/cmake-d/workflows/CI/badge.svg)](https://github.com/dcarp/cmake-d/actions?workflow=CI)
+[![Build Status](https://github.com/kassane/cmake-d/workflows/CI/badge.svg)](https://github.com/kassane/cmake-d/actions?workflow=CI)
 
 cmake-d
 =======

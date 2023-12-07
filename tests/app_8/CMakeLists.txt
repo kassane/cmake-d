@@ -1,4 +1,4 @@
-include(UseDDeps)
+include(UseDDepsMakeWIP)
 
 include_directories(.)
 # TODO

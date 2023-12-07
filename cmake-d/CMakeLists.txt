@@ -21,7 +21,7 @@ set(MOD_SRCS
 	CMakeDetermineDCompiler.cmake  
 	FindGDCPath.cmake
 	UseDDoc.cmake
-		UseDDepsMakeWIP.cmake
+	UseDDepsMakeWIP.cmake
 	UseDub.cmake
 	dependencies.cmake
 	UseDUnittest.cmake
