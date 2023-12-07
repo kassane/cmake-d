@@ -8,7 +8,7 @@ jobs:
     name: CMake Tests
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest, macos-latest, windows-latest]
         dc: [dmd-latest, ldc-latest]
 
     runs-on: ${{ matrix.os }}
@@ -20,5 +20,10 @@ jobs:
         with:
           compiler: ${{ matrix.dc }}
 
-      - name: Run tests
+      - name: Run tests (Posix)
+        if: (startsWith(matrix.os, 'ubuntu')) || (startsWith(matrix.os, 'macos'))
         run: cd tests && ./run_tests.sh
+
+      - name: Run tests (Windows)
+        if: startsWith(matrix.os, 'windows')
+        run: cd tests && ./run_tests.ps1
